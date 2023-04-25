@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+width: 100%;
+min-height: 100vh;
+background-position: center;
+position: relative;
+background-size: cover;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/banner.png);
+}
+.logo{
+padding: 30px 90px;
+display: inline-block;
+position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+.ul{
+    text-align: right;
+    flex: 1;
+    right: 103px;
+    position: relative;
+    top: -96px;
+}
+.home,.about,.blog,.cours,.contact{
+    padding: 9px 12px;
+    display: inline-block;
+    position: relative;
+}
+.ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.ul li ::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: #f44336;
+    margin: auto;
+    transition: 0.5s;
+}
+.ul li  :hover::after{
+    width: 100%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+} 
+h1{
+    font-size:61px;
+    color: aliceblue;
+    
+}
+section p{
+    position: absolute;
+    margin-top: 105px;
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    bottom:  -328%;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 11px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    border: 1px solid #f44336;
+    background-color: #f44336;
+}
+.courses{
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+color: black;
+}
+.courses h1{
+    color: black;
+    font-size: 36px;
+    font-weight: 800;
+}
+.courses p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 5px;
+}
+
+ .row{
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card h3{
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 219px;
+}
+.card p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    position: absolute;
+    padding: 17px;
+    margin-top: 15px;}
+.card{
+    position: relative;
+    display: inline-block;
+    left: -665px;
+    width: 253%;
+    border: 1px solid rgb(213, 76, 76);
+}
+.degree p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    position: absolute;
+    padding: 17px;
+    margin-top: 15px;
+}
+.degree h3{
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: -39px;
+}
+.degree{
+    position: absolute;
+    width: 17%;
+    margin: -35px -92px;
+} */
